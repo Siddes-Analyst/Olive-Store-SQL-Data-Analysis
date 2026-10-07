@@ -1687,7 +1687,7 @@ order by date;
 
 ---
 
-## Q54. Customers Who Made Their Second Purchase Within 30 Days
+## Q55. Customers Who Made Their Second Purchase Within 30 Days
 
 **Question:** Identify customers whose second purchase happened within 30 days of their first purchase.
 
