@@ -32,12 +32,20 @@ having COUNT (*) > 1;
 
 **Answer:**
 
-```sql
 1. First highest Value
-1. Values Only
 
-select MAX (payment_value) from payments;
+```sql
 
+   1. Values Only
+
+   select MAX (payment_value) from payments;
+
+```
+**Output:**
+
+![Output](Github_Output/2.1.png)
+
+```sql
 2. Full Row Fetching (Using Windows Function)
 
 with table_seg as (
@@ -48,15 +56,27 @@ from payments
 select * from table_seg
 where Rank = 1
 
+```
+
+![Output](Github_Output/2.2.png)
+
 2. Second highest Value
 
-3. Values Only
+```sql
+
+   1. Values Only
 
 select MAX (payment_value) from payments
 where payment_value < (select MAX (payment_value) from 
 payments);
 
-4. Full Row Fetching (Using Windows Function)
+```
+
+![Output](Github_Output/2.3.png)
+
+```sql
+
+   2. Full Row Fetching (Using Windows Function)
 
 with table_seg as (
 select *,
@@ -66,18 +86,23 @@ from payments
 select * from table_seg
 where Rank = 2
 
-3. Third highest Value
+```
 
-Limit & Offset Method (Common for all)
+![Output](Github_Output/2.4.png)
+
+3. Third highest Value - Limit & Offset Method (Common for all)
+
+```sql
 
 select * from payments
 order by payment_value desc
 offset 2 rows fetch next 1 rows only;
+
 ```
 
 **Output:**
 
-![Output](Github_Output/2.png)
+![Output](Github_Output/2.5.png)
 
 ---
 
