@@ -1725,4 +1725,4 @@ where rank = 2 and DATEDIFF(DAY,previous_date,pur_date) <= 30;
 
 **Output:**
 
-![Output](Github_Output/54.png)
+![Output](Github_Output/55.png)
