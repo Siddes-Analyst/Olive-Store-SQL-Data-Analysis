@@ -1,4 +1,45 @@
-# Siddes
+## 📊 SQL Olive Store E-Commerce Data Analysis Project
+
+### Project Overview
+
+This project focuses on analyzing an e-commerce dataset using SQL to understand **sales, customers, products, sellers, payments, orders, and business performance**.
+
+The analysis covers **data quality checks, sales and revenue analysis, customer behavior, product and seller performance, time-based trends, rankings, repeat purchases, order patterns, payment analysis, and customer cohorts**.
+
+The project contains **54 SQL analysis questions**, using joins, CTEs, subqueries, aggregate functions, window functions, date functions, ranking, and other SQL techniques to derive meaningful business insights.
+
+### 📁 Datasets Used
+
+The analysis was performed using the following datasets:
+
+- olist_order_items_dataset
+- olist_orders_dataset
+- olist_order_payments_dataset
+- olist_order_reviews_dataset
+- olist_customers_dataset
+- olist_products_dataset
+- olist_sellers_dataset
+- olist_geolocation_dataset
+- product_category_name_translation
+
+### 🔍 Key Analysis Areas
+
+- Data quality and duplicate record analysis
+- Sales and revenue analysis
+- Product performance analysis
+- Product category analysis
+- Seller performance analysis
+- Customer purchase behavior
+- Customer order frequency
+- Payment analysis
+- Monthly and daily revenue trends
+- Moving averages and cumulative revenue
+- Ranking products and sellers
+- Repeat customer analysis
+- Purchase gap and consecutive purchase analysis
+- Customer purchase sessions
+- Order status and delivery analysis
+- Customer cohort and first-purchase analysis
 
 ## Q1. Duplicate Records
 
