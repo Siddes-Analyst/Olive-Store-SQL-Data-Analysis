@@ -2,10 +2,6 @@
 
 ### Project Overview
 
-This project focuses on analyzing an e-commerce dataset using SQL to understand **sales, customers, products, sellers, payments, orders, and business performance**.
-
-The analysis covers **data quality checks, sales and revenue analysis, customer behavior, product and seller performance, time-based trends, rankings, repeat purchases, order patterns, payment analysis, and customer cohorts**.
-
 The project contains **54 SQL analysis questions**, using joins, CTEs, subqueries, aggregate functions, window functions, date functions, ranking, and other SQL techniques to derive meaningful business insights.
 
 ### 📁 Datasets Used
